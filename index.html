@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="QInspect - Aplikasi Manajemen Dokumen Kualitas dengan OCR">
+  
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="QInspect">
+  
+  <title>QInspect App</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 800px;
+      padding: 40px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    h1 {
+      color: #2196F3;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    
+    .preview-img {
+      max-width: 100%;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #2196F3;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    
+    .btn:hover {
+      background-color: #1976D2;
+    }
+    
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .feature {
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+    }
+    
+    .feature h3 {
+      color: #2196F3;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>QInspect - Manajemen Dokumen Kualitas</h1>
+    <p>Aplikasi manajemen dokumen kualitas untuk proyek konstruksi dengan OCR terintegrasi Hugging Face</p>
+    
+    <img src="screenshots/dashboard.png" alt="QInspect Dashboard" class="preview-img">
+    
+    <p>QInspect adalah aplikasi berbasis web untuk mengelola dokumen kualitas proyek konstruksi. 
+       Menggunakan teknologi OCR dari Hugging Face, aplikasi ini dapat mengekstrak data dari dokumen
+       scan dengan akurasi tinggi.</p>
+    
+    <div class="features">
+      <div class="feature">
+        <h3>Manajemen Dokumen</h3>
+        <p>Kelola berbagai dokumen kualitas konstruksi</p>
+      </div>
+      <div class="feature">
+        <h3>OCR Terintegrasi</h3>
+        <p>Ekstrak data dari dokumen scan otomatis</p>
+      </div>
+      <div class="feature">
+        <h3>Manajemen Proyek</h3>
+        <p>Organisasi dokumen berdasarkan proyek</p>
+      </div>
+    </div>
+    
+    <p>Aplikasi masih dalam tahap pengembangan. Prototipe Flutter Web akan segera hadir!</p>
+    
+    <a href="https://github.com/unlimitedlevel/qinspect-flutter-app" class="btn">Lihat di GitHub</a>
+  </div>
+</body>
+</html>
